@@ -19,7 +19,7 @@ const Navbar = ({totalItems}) => {
                         Commerce shop
                     </Typography>
                     <div className={classes.grow}></div>
-                    {location.pathname === '/' && (
+                    {location.pathname === '/' || '/shop' ? (
                     <div className={classes.button}>
                         <IconButton component={Link} to="/cart" area-label="Show car items" color='inherit'>
                             <Badge badgeContent={totalItems} color="secondary">
@@ -27,7 +27,7 @@ const Navbar = ({totalItems}) => {
                             </Badge>
                         </IconButton>
                     </div>
-                    )}
+                    ): null}
                 </Toolbar>  
             </AppBar>  
         </>
@@ -35,3 +35,9 @@ const Navbar = ({totalItems}) => {
 }
 
 export default Navbar
+
+//if(location.pathname === '/'){
+// do something...
+//}else{ 
+//    do something else
+//}
