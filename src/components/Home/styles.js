@@ -23,5 +23,10 @@ export default makeStyles(()=> ({
             margin: 'auto',
             display: 'block',
             width: '85px',
-        } 
+        },
+    paragraph:
+        {
+            padding: '3rem 0 1.5rem 0',
+            textAlign: 'justify',
+        }     
 }));

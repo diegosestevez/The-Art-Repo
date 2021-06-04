@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {commerce} from './lib/commerce';
-import {Products, Navbar, Cart, Checkout, Home} from './components';
+import {Products, Navbar, Cart, Checkout, Home, Footer} from './components/controller';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 // import Products from './components/Products/Products';
 // import Navbar from './components/Navbar/Navbar';
@@ -98,6 +98,7 @@ const App = () => {
                     />
                 </Route>
             </Switch>
+            <Footer></Footer>
         </div>
     </Router>    
     );
