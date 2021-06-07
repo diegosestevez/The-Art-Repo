@@ -1,12 +1,12 @@
 import {makeStyles} from '@material-ui/core/styles';
 
 export default makeStyles(()=>({
-    footer:{
-        // position: 'fixed',
-        bottom: '0',
-        width: '100%',
-        // height: '100%',
+    footer:
+    {
         backgroundColor: 'black',
         color: 'white',
+    },
+    padding:{
+        padding:'2rem 0'
     },
 }));

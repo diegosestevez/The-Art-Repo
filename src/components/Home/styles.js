@@ -17,16 +17,24 @@ export default makeStyles(()=> ({
    heading:
         {
         textAlign: 'center',
+        color: 'white',
         },
     button:
         {
             margin: 'auto',
             display: 'block',
             width: '85px',
+            color:'white',
+            borderColor:'white',
+            "&:hover":{
+                borderColor:'green',
+                backgroundColor:'green',
+                color: 'white',
+            }
         },
-    paragraph:
-        {
-            padding: '3rem 0 1.5rem 0',
-            textAlign: 'justify',
-        }     
+    // paragraph:
+    //     {
+    //         padding: '3rem 0 1.5rem 0',
+    //         textAlign: 'justify',
+    //     }     
 }));
