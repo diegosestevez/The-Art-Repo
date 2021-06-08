@@ -36,13 +36,13 @@ const Footer = () => {
                     <Typography variant='subtitle2'>VX7 4U1</Typography>
                     <Typography variant='subtitle2'>Vancouver BC</Typography>
                     <Typography variant='subtitle2'>850-864-4649</Typography>
-                    <Typography variant='subtitle2'>artme@artrepo.com</Typography>
+                    <Typography variant='subtitle2'>shop@artrepository.com</Typography>
                     </Box>
                 </Grid>
             </Grid>
             <Grid container justify='center'>
                 <Grid item>
-                    <Typography variant="body1">&copy; {year} The Art Repo</Typography>
+                    <Typography variant="body1">&copy; {year} The Art Repository</Typography>
                 </Grid>
             </Grid>
        

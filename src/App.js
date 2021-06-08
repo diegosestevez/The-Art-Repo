@@ -76,25 +76,7 @@ const App = () => {
             <Navbar totalItems={cart.total_items}/>
             <Switch>
                 <Route exact path="/">
-                    <Home></Home>
-                    {products.map(product => {
-
-                        const productCategory = product.categories;
-                       
-                        for(let i = 0; i<productCategory.length; i++){
-                            if(productCategory[i].name === 'New'){
-                                return(
-                                    <> 
-                                        <p>{product.name}</p>
-                                        <p>{product.price.formatted_with_symbol}</p>
-                                        <p>{product.description}</p>
-                                        <img src={product.media.source} width="100px"/>
-                                    </>
-                                    )
-                            };
-                        }
-                     
-                    })}
+                    <Home products={products} onAddToCart={handleAddToCart}></Home>
                 </Route>
                 <Route exact path="/shop">
                     <Products products={products} onAddToCart={handleAddToCart}/>
