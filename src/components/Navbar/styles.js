@@ -65,4 +65,16 @@ export default makeStyles((theme) => ({
       width: '20ch',
     },
   },
+  shop:{
+    textDecoration:'none',
+    "&:visited":{
+      color:'black',
+    },
+    "&:hover":{
+      color:'red',
+    },
+    "&:active":{
+      color:'grey',
+    },
+  }
 }));

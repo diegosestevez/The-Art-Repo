@@ -13,20 +13,20 @@ const Footer = () => {
     return(
         <>
         <Container className={classes.footer} maxWidth='100%'>
-            <Grid container justify='space-evenly' alignItems='center' className={classes.padding} >
+            <Grid container justify='space-evenly' alignItems='center' className={classes.footerContainer} >
                 <Grid item>
                     <Grid container spacing={5}>
                         <Grid item>
-                            <a href="/"><TwitterIcon fontSize='large'/> </a>
+                            <a href="/" className={classes.footerElement}><TwitterIcon fontSize='large'/> </a>
                         </Grid>
                         <Grid item>
-                            <a href="/"><FacebookIcon fontSize='large'/></a>
+                            <a href="/" className={classes.footerElement}><FacebookIcon fontSize='large'/></a>
                         </Grid>
                         <Grid item>
-                            <a href="/"><InstagramIcon  fontSize='large'/></a>
+                            <a href="/" className={classes.footerElement}><InstagramIcon  fontSize='large'/></a>
                         </Grid>
                         <Grid item>
-                            <a href="/"><YouTubeIcon  fontSize='large'/></a>
+                            <a href="/" className={classes.footerElement}><YouTubeIcon  fontSize='large'/></a>
                         </Grid>
                     </Grid>
                 </Grid>
@@ -36,13 +36,13 @@ const Footer = () => {
                     <Typography variant='subtitle2'>VX7 4U1</Typography>
                     <Typography variant='subtitle2'>Vancouver BC</Typography>
                     <Typography variant='subtitle2'>850-864-4649</Typography>
-                    <Typography variant='subtitle2'>shop@artrepository.com</Typography>
+                    <Typography variant='subtitle2'>shop@artrepo.com</Typography>
                     </Box>
                 </Grid>
             </Grid>
             <Grid container justify='center'>
                 <Grid item>
-                    <Typography variant="body1">&copy; {year} The Art Repository</Typography>
+                    <Typography variant="body1">&copy; {year} The Art Repo</Typography>
                 </Grid>
             </Grid>
        

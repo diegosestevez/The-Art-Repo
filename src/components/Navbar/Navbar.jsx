@@ -16,9 +16,9 @@ const Navbar = ({totalItems}) => {
                 <Toolbar>
                     <Typography component={Link} to="/" variant='h6' className={classes.title} color='inherit'>
                         <img src={logo} alt='Commerce.js' height='25px' className={classes.image}/>
-                        The Art Repository
+                        The Art Repo
                     </Typography>
-                    <div className={classes.grow}></div>
+                    <Typography component={Link} to="/shop" variant="button" className={classes.shop}>Shop</Typography>
                     {location.pathname === '/' || '/shop' ? (
                     <div className={classes.button}>
                         <IconButton component={Link} to="/cart" area-label="Show car items" color='inherit'>
@@ -35,9 +35,3 @@ const Navbar = ({totalItems}) => {
 }
 
 export default Navbar
-
-//if(location.pathname === '/'){
-// do something...
-//}else{ 
-//    do something else
-//}

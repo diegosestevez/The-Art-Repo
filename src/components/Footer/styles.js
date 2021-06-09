@@ -6,7 +6,19 @@ export default makeStyles(()=>({
         backgroundColor: 'black',
         color: 'white',
     },
-    padding:{
-        padding:'2rem 0'
+    footerContainer:{
+        padding:'2rem 0',
     },
+    footerElement:
+    {
+        "&:visited":{
+            color: 'white',
+        },
+        "&:hover":{
+            color: 'red',
+        },
+        "&:active":{
+            color: 'grey',
+        }
+    }
 }));

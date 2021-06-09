@@ -5,6 +5,7 @@ export default makeStyles(()=> ({
         {
             background: 'whitesmoke',
             marginTop: '8vh',
+            // marginBottom:'8vh',
             height: '100vh',
             flexGrow: 1,
             backgroundImage: 'url(https://dbakevlar.com/wp-content/uploads/2019/04/EA8CFD0B-9BF8-4598-AD27-3F524735D7DB.gif)',
@@ -33,20 +34,32 @@ export default makeStyles(()=> ({
                 borderColor:'white',
                 backgroundColor:'white',
                 color: 'black',
+            },
+            "&:active":{
+                borderColor:'red',
+                backgroundColor:'red',
+                color: 'grey',
             }
         },
     paragraph:
         {
-            padding: '3rem 10vw',
+            padding: '0 10vw 3rem 10vw',
             textAlign: 'justify',
         },
+    divider:
+    {
+        borderTop: 'dotted 10px red', 
+        width:'25%', 
+        marginBottom: '4rem',
+        marginTop:'1rem',
+    },    
     cardContainer:
         {
             paddingBottom: '3rem',
         },    
     card:
         {
-            // maxWidth: '100%', 
+         cursor: 'pointer',    
         },        
     media: 
         {
@@ -56,6 +69,16 @@ export default makeStyles(()=> ({
     cardContent: 
         {
             display: 'flex',
+            flexDirection: 'column',
             justifyContent: 'space-between',
-        },          
+        },
+    cardActions:
+    {
+        justifyContent:'flex-end',
+    },
+    texture:
+    {
+        paddingTop:'3rem',
+        backgroundImage: " url(https://www.transparenttextures.com/patterns/french-stucco.png)",
+    }              
 }));
