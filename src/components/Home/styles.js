@@ -3,12 +3,11 @@ import {makeStyles} from '@material-ui/core/styles';
 export default makeStyles(()=> ({
    root:
         {
-            background: 'whitesmoke',
             marginTop: '8vh',
             // marginBottom:'8vh',
             height: '100vh',
             flexGrow: 1,
-            backgroundImage: 'url(https://dbakevlar.com/wp-content/uploads/2019/04/EA8CFD0B-9BF8-4598-AD27-3F524735D7DB.gif)',
+            backgroundImage: 'url(https://c.pxhere.com/photos/d1/9a/Abstract_acrylic_Art_Artist_bold_Canvas_Close_up_Creative-1622830.jpg!d)',
             backgroundAttachment: 'fixed',
             backgroundPosition: 'center',
             backgroundRepeat:'no-repeat',
@@ -28,17 +27,13 @@ export default makeStyles(()=> ({
             margin: 'auto',
             display: 'block',
             width: '85px',
-            color:'white',
-            borderColor:'white',
+            backgroundColor: 'white',
             "&:hover":{
-                borderColor:'white',
-                backgroundColor:'white',
-                color: 'black',
+                backgroundColor:'red',
+                color: 'white',
             },
             "&:active":{
-                borderColor:'red',
-                backgroundColor:'red',
-                color: 'grey',
+                backgroundColor:'grey',
             }
         },
     paragraph:

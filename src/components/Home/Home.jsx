@@ -12,9 +12,10 @@ const Home = ({products, onAddToCart}) => {
         <Grid className={classes.root} container alignContent='center'>
             <Grid className={classes.content} item xs={12}>
                 <Typography className={classes.heading} variant="h1" align="center">The Art Repo</Typography>
+                <Typography className={classes.heading} variant="h5" align="center">Your neighborhood art store</Typography>
             </Grid>
             <Grid className={classes.content} item xs={12}>
-                <Button component={Link} to='/shop' className={classes.button} variant="outlined" size='large'>Shop</Button>
+                <Button component={Link} to='/shop' className={classes.button} variant="contained" size='large'>Shop</Button>
             </Grid>
         </Grid>
         <div className={classes.texture}>
@@ -25,10 +26,10 @@ const Home = ({products, onAddToCart}) => {
         </Grid>
         <Grid className={classes.paragraph} container justify='center' spacing={5}>
                 <Grid item sm={6} xs={12}>
-                    <Typography variant="body1">The Art Shop (TAS) is a platform for the representation of artists without pretense, an inviting space for experimentation and participation. Reinventing the traditional model of an art gallery, TAS blurs the separated genres of art and affordability. Presenting local young creatives, TAS aims to catalyze a connection between emerging artists and those who are aesthetically driven and interested in art but find art galleries too pretentious or academic, educating viewers to trust in what they respond to and helping bridge the distance between viewer and art.</Typography>    
+                    <Typography variant="body1">The Art Repo is an online platform dedicated to showcasing the works done by local artists in Vancouver. It is an inviting space which encourages the thoughtful experimentation of driven creatives who strive to challenge the boundaries set by traditional forms of art. The Art Repo is open to artists of all skill levels and backgrounds who are looking for opportunities to connect with the general public without need for a traditional setting such as a gallery or studio.</Typography>    
                 </Grid>
                 <Grid item sm={6} xs={12}>    
-                    <Typography variant="body1">The mission of TAS is to contribute to the artistic culture of Vancouver as an identity recognized for representing artists in a novel way and for providing diverse opportunities for people to relate to art and artists. A space of experimentation and interpersonal communication, young, vibrant, and community-focused, the intention of TAS is for people to feel comfortable and welcomed, and for artists to feel represented in a positive and fair way.</Typography>
+                    <Typography variant="body1">Since 2016 it has been the Art Repo’s mission to contribute to the artistic culture of Vancouver by introducing those who are often overlooked by the broader art community. Artists who apply to have their works shown on our shop are not required to have formal training or an established reputation. Instead the Art Repo strives to be a space where all passionate artists are given the opportunity to connect to the general public through their works. The proceeds collected from sales in our shop are used to support the artists who contribute to the Art Repo as well as help encourage various projects within the city of Vancouver.</Typography>
                 </Grid>
         </Grid>
         <hr className={classes.divider}/>

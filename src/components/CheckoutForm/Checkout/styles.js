@@ -49,4 +49,8 @@ export default makeStyles((theme) => ({
     justifyContent: 'center',
     alignItems: 'center',
   },
+  texture:{
+    paddingBottom:'3rem',
+    backgroundImage: " url(https://www.transparenttextures.com/patterns/french-stucco.png)",
+  },
 }));

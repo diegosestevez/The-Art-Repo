@@ -75,6 +75,7 @@ const Checkout = ({cart, order, onCaptureCheckout, error}) => {
     return (
         <>
         <CssBaseline/>
+        <div className={classes.texture}>
          <div className={classes.toolbar} /> 
          <main className={classes.layout}>
              <Paper className={classes.paper}>
@@ -88,7 +89,8 @@ const Checkout = ({cart, order, onCaptureCheckout, error}) => {
                  </Stepper>
                  {activeStep === steps.length ? <Confirmation/> : checkoutToken && <Form/>}
              </Paper>
-        </main>  
+        </main> 
+        </div> 
         </>
     )
 }

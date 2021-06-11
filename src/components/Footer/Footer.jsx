@@ -32,11 +32,11 @@ const Footer = () => {
                 </Grid>
                 <Grid item>
                     <Box pt={3}>
-                    <Typography variant='subtitle2'>1687 Davie Street</Typography>
-                    <Typography variant='subtitle2'>VX7 4U1</Typography>
+                    <Typography variant='subtitle2'>1685 Davie Street</Typography>
+                    <Typography variant='subtitle2'>V6B 2G2</Typography>
                     <Typography variant='subtitle2'>Vancouver BC</Typography>
-                    <Typography variant='subtitle2'>850-864-4649</Typography>
-                    <Typography variant='subtitle2'>shop@artrepo.com</Typography>
+                    <Typography variant='subtitle2'>604-864-4649</Typography>
+                    <Typography variant='subtitle2'>art@artrepo.com</Typography>
                     </Box>
                 </Grid>
             </Grid>
