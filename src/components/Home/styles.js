@@ -45,12 +45,12 @@ export default makeStyles(()=> ({
     {
         borderTop: 'dotted 10px red', 
         width:'25%', 
-        marginBottom: '4rem',
-        marginTop:'1rem',
+        marginBottom: '10%',
+        marginTop:'7%',
     },    
     cardContainer:
         {
-            paddingBottom: '3rem',
+            paddingBottom: '10%',
         },    
     card:
         {
@@ -73,7 +73,7 @@ export default makeStyles(()=> ({
     },
     texture:
     {
-        paddingTop:'3rem',
+        paddingTop:'10%',
         backgroundImage: " url(https://www.transparenttextures.com/patterns/french-stucco.png)",
     }              
 }));

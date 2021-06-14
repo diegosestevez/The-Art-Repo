@@ -1,10 +1,10 @@
 import {Box, Container, Grid, Typography} from '@material-ui/core';
-import {Link} from 'react-router-dom';
 import makeStyles from './styles';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import YouTubeIcon from '@material-ui/icons/YouTube';
+import Logo from '../../assets/brushWhite.svg';
 
 const Footer = () => {
     const classes = makeStyles();
@@ -15,6 +15,12 @@ const Footer = () => {
         <Container className={classes.footer} maxWidth='100%'>
             <Grid container justify='space-evenly' alignItems='center' className={classes.footerContainer} >
                 <Grid item>
+                <Grid container justify="center">
+                        <Grid item className={classes.logoContainer}>
+                            <img src={Logo} alt="Art Repo logo black and white" width="48px" className={classes.footerLogo}/>
+                            <Typography variant="caption">The Art Repo</Typography>
+                        </Grid>
+                 </Grid>       
                     <Grid container spacing={5}>
                         <Grid item>
                             <a href="/" className={classes.footerElement}><TwitterIcon fontSize='large'/> </a>

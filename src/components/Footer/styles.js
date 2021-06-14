@@ -20,5 +20,13 @@ export default makeStyles(()=>({
         "&:active":{
             color: 'grey',
         }
+    },
+    logoContainer:{
+        padding: '25px',
+    },
+    footerLogo:{
+        display:"block",
+        margin:'auto',
     }
+
 }));
